@@ -37,7 +37,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(706, 675);
+  let cv = createCanvas(706, 675);
+  cv.parent('game');
   goal = createVector(630, 30);
   player = new Player(65, 620);
   chaser = new AI(50, 50);
