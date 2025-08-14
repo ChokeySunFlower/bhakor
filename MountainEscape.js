@@ -28,12 +28,12 @@ const totalLevels = 6;
 let restartButton;
 
 function preload() {
-  img = loadImage('image/Mountain.gif');
-  playerImg = loadImage('image/Dorjee.gif');
-  startScreenImg = loadImage('image/Sky.gif');
-  obstacleImg = loadImage('image/Lynx.gif');
-  heartImg = loadImage('image/Heart.gif');
-  chaserImg = loadImage('image/Police.gif');
+  img = loadImage("image/Mountain.gif");
+  playerImg = loadImage("image/Dorjee.gif");
+  startScreenImg = loadImage("image/Sky.gif");
+  obstacleImg = loadImage("image/Lynx.gif");
+  heartImg = loadImage("image/Heart.gif");
+  chaserImg = loadImage("image/Police.gif");
 }
 
 function setup() {
